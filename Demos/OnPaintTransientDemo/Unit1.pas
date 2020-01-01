@@ -32,6 +32,7 @@ var
   Form1: TForm1;
 
 implementation
+uses SynUnicode;
 
 {$R *.DFM}
 
@@ -164,7 +165,7 @@ procedure TForm1.FormCreate(Sender: TObject);
 begin
   Editor.Text := SynJavaSyn1.SampleSource;
   FBracketFG := clRed;
-  FBracketBG := clNone;
+  FBracketBG := clRed;
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);

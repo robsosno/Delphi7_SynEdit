@@ -17,8 +17,8 @@ object Form1: TForm1
   object Editor: TSynEdit
     Left = 0
     Top = 41
-    Width = 688
-    Height = 405
+    Width = 680
+    Height = 400
     Align = alClient
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -33,11 +33,12 @@ object Form1: TForm1
     Gutter.Font.Style = []
     Highlighter = SynJavaSyn1
     OnPaintTransient = EditorPaintTransient
+    FontSmoothing = fsmNone
   end
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 688
+    Width = 680
     Height = 41
     Align = alTop
     BevelOuter = bvNone
@@ -58,12 +59,14 @@ object Form1: TForm1
       Height = 25
       Caption = 'Toggle Enabled'
       TabOrder = 1
-      Visible = False
       OnClick = Button1Click
     end
   end
   object SynJavaSyn1: TSynJavaSyn
     Enabled = False
+    Options.AutoDetectEnabled = False
+    Options.AutoDetectLineLimit = 0
+    Options.Visible = False
     Left = 192
     Top = 88
   end

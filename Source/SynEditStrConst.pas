@@ -126,6 +126,7 @@ const
   SYNS_AttrOperatorAndSymbols   =  'OperatorAndSymbols';
   SYNS_AttrOpLine               =  'OpLine';
   SYNS_AttrOptions              =  'Options';
+  SYNS_AttrOptimizerHints       =  'OptimizerHints';
   SYNS_AttrPath                 =  'PathName';  
   SYNS_AttrPLSQL                =  'PLSQL-ReservedWord';
   SYNS_AttrPragma               =  'Pragma';
@@ -334,6 +335,7 @@ resourcestring
   SYNS_FriendlyAttrOperatorAndSymbols   =  'Operator And Symbols';
   SYNS_FriendlyAttrOpLine               =  'OpLine';
   SYNS_FriendlyAttrOptions              =  'Options';
+  SYNS_FriendlyAttrOptimizerHints       =  'Optimizer hints';
   SYNS_FriendlyAttrPath                 =  'Pathname';    
   SYNS_FriendlyAttrPLSQL                =  'PL/SQL Reserved Word';
   SYNS_FriendlyAttrPragma               =  'Pragma';
